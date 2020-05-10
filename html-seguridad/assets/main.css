@@ -1,0 +1,93 @@
+@font-face {
+	font-family: 'Marat Sans Regular';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Marat Sans Regular'), url('Marat Sans Regular.woff') format('woff');
+}
+@font-face {
+	font-family: 'Marat Sans Medium';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Marat Sans Medium'), url('Marat Sans Medium.woff') format('woff');
+}
+
+html {
+	font: Marat Sans Medium, Georgia, 'Times New Roman', Times, serif;
+}
+body {
+	background: antiquewhite;
+	padding: 0;
+	margin: 0;
+}
+.royale_header {
+	position: relative;
+	margin: 0 auto;
+	background: #000000;
+	width: 100%;
+	height: 2em;
+	max-height: 4em;
+	flex-wrap: wrap;
+	text-align: center;
+	justify-content: center;
+	color: #db8f0c;
+	font-size: 2em;
+}
+.royale_header span {
+	position: absolute;
+	margin: 0.4em 0 auto auto;
+	padding-left: 1em;
+}
+.royale_header img {
+	margin: 0 0 auto -6em;
+}
+.main_wrapper {
+	background-color: antiquewhite;
+	max-width: 60%;
+	margin: 1em auto;
+}
+.body_header h1 {
+	margin: 0 auto;
+	text-align: center;
+	font-size: 4em;
+}
+.body_header h2 {
+	padding-left: 7em;
+	margin: 0 4em auto;
+
+	font-weight: 100;
+}
+.breaker {
+	display: flex;
+	margin: 1em auto;
+	width: 70%;
+	height: 1px;
+	border: 1px solid #000000;
+	border-radius: 3.5px;
+	background-color: #000000;
+}
+.body_document {
+	font-size: 20px;
+}
+.div_img {
+	margin: 1em auto;
+	max-width: fit-content;
+}
+.content span {
+	font-weight: 1000;
+}
+.content {
+	padding-left: 9em;
+	font-weight: 300;
+	font-size: 1.25em;
+}
+.content-footer {
+	margin: 0 auto;
+	max-width: fit-content;
+	font-size: 1.25em;
+	padding: 1em;
+	border: 1px solid #000000;
+	border-radius: 3em;
+}
+a {
+	color: rgb(219, 143, 12);
+}
