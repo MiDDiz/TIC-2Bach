@@ -15,10 +15,11 @@ html {
 	font: Marat Sans Medium, Georgia, 'Times New Roman', Times, serif;
 }
 body {
-	background: antiquewhite;
+	background: #fff3e4;
 	padding: 0;
 	margin: 0;
 }
+
 .royale_header {
 	position: relative;
 	margin: 0 auto;
@@ -41,7 +42,7 @@ body {
 	margin: 0 0 auto -6em;
 }
 .main_wrapper {
-	background-color: antiquewhite;
+	background-color: #fff3e4;
 	max-width: 60%;
 	margin: 1em auto;
 }
@@ -71,6 +72,7 @@ body {
 .div_img {
 	margin: 1em auto;
 	max-width: fit-content;
+	max-width: min-content;
 }
 .content span {
 	font-weight: 1000;
@@ -82,12 +84,60 @@ body {
 }
 .content-footer {
 	margin: 0 auto;
-	max-width: fit-content;
+	max-width: inherit;
 	font-size: 1.25em;
 	padding: 1em;
+	text-align: center;
 	border: 1px solid #000000;
 	border-radius: 3em;
 }
 a {
 	color: rgb(219, 143, 12);
+	text-decoration: none;
+}
+
+.subtitle {
+	padding: 1em;
+	padding-bottom: 5px;
+	font-weight: bold;
+	font-size: 1.25em;
+	text-decoration: underline rgba(219, 143, 12, 0.85);
+}
+.sub-subtitle {
+	text-decoration: none;
+	font-weight: normal;
+}
+
+ul {
+	padding-top: 0.25em;
+}
+
+.title-fragment span {
+	font-size: 2em;
+	background: rgba(219, 143, 12, 0.85);
+	padding: 0.1em;
+	padding-right: 1em;
+}
+
+table {
+	border-collapse: collapse;
+	font-size: 1em;
+}
+th {
+	border: 1px solid black;
+	margin: 0;
+	padding: 0.5em;
+	font-weight: 300;
+}
+
+#amenazas {
+	margin-top: 1em;
+	padding: 0;
+}
+#table_header {
+	background-color: rgba(219, 143, 12, 0.5);
+	font-weight: bold;
+}
+#amenazas_diff {
+	background-color: ivory;
 }

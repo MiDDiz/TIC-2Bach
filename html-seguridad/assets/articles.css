@@ -1,0 +1,22 @@
+.article {
+	max-width: 75%;
+	margin: 0 auto;
+}
+.article-header {
+	text-decoration: underline solid rgba(219, 143, 12, 0.85);
+	margin-bottom: 2px;
+}
+.article-subheader {
+	margin-top: 0.5em;
+}
+.article-image {
+	margin: 0 auto;
+
+	max-width: min-content;
+}
+.article-body {
+	display: inline-block;
+	max-width: 90%;
+	margin: 0 auto;
+	text-align: justify;
+}

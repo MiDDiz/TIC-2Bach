@@ -1,8 +1,10 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
     <head>
         <title>Seguridad Informática</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="assets/main.css">
+        <link rel="stylesheet" href="assets/articles.css">
     </head>
     <body>
         <div class="royale_header">
@@ -21,20 +23,43 @@
                     </div>
                     <div class="body-fragment">
                         <ol>
-                            <li>Ataques pasivos</li>
+                            <li class="subtitle">Ataques pasivos</li> 
+                            <span class="sub-subtitle">Su objetivo es obtener información sin alterarla.</span>
+                            
                             <ul>
                                 <li>Usuarios con bajo nivel de conocimientos informáticos.</li>
                                 <li>Hackers. Informáticos expertos.</li>
                             </ul>
-                            <li>Ataques activos</li>
+                            <div class="article">
+                                <h1 class="article-header">Chema Alonso</h2>
+                                <h3 class="article-subheader">Chema Alonso es un hacker ético que se dedica a usar sus conocimientos legalmente.</h3>
+                                <div class="article-body">
+                                    <div class="article-image"><img src="/assets/chema.jpg" alt="Imágen de Chema Alonso" width="436px"></div>
+                                    <p>Empezando a trastear a los 12 años, actualemente José María es miembro del Comité Ejecutivo de Telefónica y experto en ciberseguridad. Se graduó en la Universidad Politécnica de Madrid como Técnico Informático de Sistemas y se doctoró en la Universidad Rey Juan Carlos en Seguridad Informática.</p>
+                                    <p>Profesionalmente comenzó como becario en la startup <em>Victur Rorat</em> hasta que fundó la empresa <em>Informática 64</em>. Tras negociar con Telefónica, esta anexionó la empresa y la rebautizó como <em>ElevenPaths</em> de la cual Chema fue el Chairman. Actualmente es el CDCO <em>(Chief Digital Consumer Officer)</em> de Telefónica.</p>
+                                    <p>Como último cabe destacar que escribe en su blog <a href="https://www.elladodelmal.com">“Un informático en el lado del mal”</a> donde habla de su vida como gamer, de ciberseguridad y otros temas afines.</p>
+                                </div>
+                            </div>
+                            <li class="subtitle">Ataques activos</li>
+                            <span class="sub-subtitle">Persiguen dañar o manipular la información, para obtener beneficios.<br>Pueden relizarlo personas como:</span>
                             <ul>
                                 <li>Usuarios con un nivel básico de conocimientos.</li>
                                 <li>Crackers.</li>
                             </ul>
+                            <div class="article">
+                                <h1 class="article-header">Anonymous</h1>
+                                <h3 class="article-subheader">Un misterioso seudónimo usado por hackers mundialmente.</h3>
+                                <div class="article-body">
+                                    <div class="article-image"><img src="/assets/Anonymous_Flag.svg.png" alt="Imágen de Anonymous" width="436px"></div>
+                                    <p>Su primera aparición es incierta, pero se dice que Anonymous surgió por pimera vez en la página de la Deepweb conocida como <a href="https://www.xataka.com/especiales/sigue-siendo-4chan-el-foro-indomable-con-lo-mas-salvaje-de-la-red">4chan.</a> Siguiendo sus inicios, Anonymous es un seudónimo que usan multitud de personas alrededor del mundo para realizar actividades de forma anónima.</p> 
+                                    <p>Ya sea activismo, dentro y fuera de la red, cómo delincuencia con fines <em>eticos</em> según ellos, hasta declaraciones internacionales protestando a favor de la libertad de expresión y de información. A su vez, algunos subgrupos de Anonymous realizan acciones en contra de grupos como <em>Daesh o la cienciología. </em>Estas son, en genral, las principales actividades que se desarrollan dentro de este grupo.</p>
+                                    <p>Personalmente creo que la existencia de grupos extragubernamentales ayuda a mantener la balanza de poder en diversos territorios. No solo con la información, Anonymous denuncia y expone diversos problemas que son tapados por las persoas que están en el poder. Es cierto que el anonimato es un arma de doble filo, pero la otra opción es la pérdida de libertad, dejando el control en manos de los gobiernos.</p>
+                                </div>
+                            </div>
                         </ol>
                     </div>
 
-                    <div class="breaker"></div>
+                    
                 </div>
                 <div class="content-fragment">
                     <div class="breaker"></div>
@@ -44,25 +69,96 @@
                     </div>
                     <div class="body-fragment">
                         <ol>
-                            <li>Software Malicioso</li>
-                            <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                            </ul>
-                            <li>Errores de diseño de los sistemas operativos o de las aplicaciones.</li>
+                            <li class="subtitle">Software Malicioso</li>
+                            <span class="sub-subtitle">Programas diseñados con fines no éticos (virus, gusanos, troyanos, espías)<br>Alguns ejemplos son:</span>
+                            <!-- aqui va una tabla de 12 elementos -->
+                            <table id="amenazas">
+                                <tbody>
+                                    <tr id="table_header">
+                                        <th>Nombre</th>
+                                        <th>Definición</th>
+                                        <th>Suceso Importante</th>
+                                    </tr>
+                                    <tr>
+                                        <th>Virus</th>
+                                        <th>Software que altera el funcionamiento normal de un dispositivo informático, sin permiso o conocimiento del usuario afectado.</th>
+                                        <th></th>
+                                    </tr>
+                                    <tr id="amenazas_diff">
+                                        <th>Gusanos</th>
+                                        <th>Es un malware que se replica para propagarse a otras computadoras, ya sea por una red informática o por un medio físico.</th>
+                                        <th><a href="https://es.wikipedia.org/wiki/Gusano_Morris">Gusano Morris</a></th>
+                                    </tr>
+                                    <tr>
+                                        <th>Troyanos</th>
+                                        <th>Es un malware que aparenta ser un programa normal e inofensivo pero que se activa al ser ejectudado, dandole al atacante acceso remoto.</th>
+                                        <th><a href="https://es.wikipedia.org/wiki/NetBus">Troyano NetBus</a></th>
+                                    </tr>
+                                    <tr id="amenazas_diff">
+                                        <th>Spyware</th>
+                                        <th>Es otro tipo de malware que se dedica a recopilar información de un ordenador y despues lo envía al atacante, para su uso o venta ilegal.</th>
+                                        <th><a href="https://en.wikipedia.org/wiki/CoolWebSearch">CoolWebSearch</a></th>
+                                    </tr>
+                                    <tr>
+                                        <th>Adware</th>
+                                        <th>Es un tip omás de software que se dedica a mostrar u ofrecer publicidad no deseada y/o engañosa. Se muestra tanto en navegadores como superpuesto en programas que no tienen porqué estar infectados.</th>
+                                        <th><a href="https://www.kaspersky.es/blog/fireball-adware/13086/">Fireball Adware</a></th>
+                                    </tr>
+                                    <tr id="amenazas_diff">
+                                        <th>Ransomware</th>
+                                        <th>Este tipo de malware se ha hecho famoso últimamente. Se trata de un código malicioso que encripta todos los datos del ordenador bajo una clave segura. Para poder desencriptar los datos el afectado ha de ceder a las demandas del atacante y conseguir la clave de desencriptación.</th>
+                                        <th><a href="https://www.europapress.es/portaltic/ciberseguridad/noticia-tercio-usuarios-corporativos-victima-ataque-ransomware-sigue-liderando-wannacry-20200512130745.html">WannaCry</a></th>
+                                    </tr>
+                                    <tr>
+                                        <th>Rogue</th>
+                                        <th>La carácteristica principal de este malware es que hace creer al usuario que ha sido infectado con un virus. El atacante insta a la victima a que le pague una suma de dinero para eliminar el malware.</th>
+                                        <th></th>
+                                    </tr>
+                                    <tr id="amenazas_diff">
+                                        <th>Rootkit</th>
+                                        <th>Su objetivo principal es dotarle al atacante de un acceso con privilegio continuo manteniendose oculto. Suele corromper la jerarquía de administración del sistema para obtener los máximos privilegios.</th>
+                                        <th><a href="http://www.vsantivirus.com/ntrootkit.htm">NTRootkit</a></th>
+                                    </tr>
+                                    <tr>
+                                        <th>Phising</th>
+                                        <th>Más que malware, es un conjunto de técnicnas que tienen como finalidad el engañar a la victima para manipularla y hacer que realize acciónes que le pongan en una situación vulnerable.</th>
+                                        <th><a href="https://maldita.es/malditobulo/2020/05/11/phishing-coronavirus-timos/">Ejemplos de fishing</a></th>
+                                    </tr>
+                                    <tr id="amenazas_diff">
+                                        <th>Pharming</th>
+                                        <th>Es un tipo de ciberataque que consiste en redirigir todo el tráfico hacia sitios fraudulentos para obtener credenciales o información vulnerable.</th>
+                                        <th><a href="https://www.pcworld.com/article/129270/article.html">Ataques a bancos</a></th>
+                                    </tr>
+                                    <tr>
+                                        <th>Spam</th>
+                                        <th>El Spam no es un ataque como tal. Spam es como tal la acción repetida de enviar información no deseada, como publicidad o correos no desesados, para hostigar al usuario. </th>
+                                        <th><a href="https://phys.org/news/2016-02-indiana-months-international-spam-case.html">Caso de spam.</a></th>
+                                    </tr>
+                                    <tr id="amenazas_diff">
+                                        <th>Hoax</th>
+                                        <th>Hoax, en español bulo, tampoco se trata de un ataque informático como tal, sino que se trata de una herramienta de ingeniería social para inundar la red con información fraudulenta.</th>
+                                        <th><a href="https://www.pandasecurity.com/es/security-info/hoax/">Un ejemplo de hoax.</a></th>
+                                    </tr>
+                                </tbody>
+                            </table>
+                                 
+                            <li class="subtitle">Errores de diseño de los sistemas operativos o de las aplicaciones.</li>
+                            <div class="article">
+                                <h1 class="article-header">El Efecto 2000</h1>
+                                <h3 class="article-subheader">El bug que se temía que tuviese letales consecuencias a finales del siglo XX</h3>
+                                <div class="article-body">
+                                    
+                                    <p>La preocupación de lo que se conoció como el <em>Efecto 2000</em> se basaba en el caso de que una vez entrado en el nuevo milenio, los ordenadores lo marcarían como el año 00. Los ordenadores informáticos podrían llegar a vivir en el año 1900 en vez de en el 2000.</p>
+                                    <p>La causa principal del problema era la forma en la que los ordenadores almacenaban las fechas. En vez de almacenar los cuatro dígitos del año, se almacenaban solo los últimos dos. Esta forma era más eficiente, algo necesario dado el paradigma tecnológico de la época.</p>
+                                    <div class="article-image"><img src="assets/Effecto 2000.jpg" alt="Imágen del efecto 2000" width="436"></div>
+                                    <p>Una de las grandes preocupaciones era el efecto cascada. Es cierto que de primeras, solo fallarían aquellos sistemas que dependieran de las fechas, sin embargo era muy probable que a su vez otros sistemas dependiesen de estos últimos. Y así, el efecto casacada podría desembocar en un caos informático.</p>
+                                    <p>En la realidad, los efectos fueron puramente anecdóticos. En Japón los fallos reportados fueron de poca relevancia y se arreglaron en seguida. En Estados Unidos, algunas máquinas tragamonedas tuvieron problemas menores. Algunas páginas web marcaban la fecha como el 1 de enero de 1910, y así un largo etc de problemas menores.</p>                                
+                                    <p>El próximo efecto 2000 se estima que se producirá el 19 de enero de 2038 a las 03:14 debido a que se llegará a la capácidad máxima de almacenamiento de las fechas. Actualmente, la mayoría de ffechas se guardan en un valor numérico de 32 bits, sin embargo esta tecnólogia ya es está quedando obsoleta actualmente asi que seguramente no llegue a ser un problema.</p>
+                                </div>
+                            </div>
                         </ol>
                     </div>
-                    <div class="breaker"></div>
+                    
                 </div>
                 <div class="content-fragment">
                     <div class="breaker"></div>
@@ -70,8 +166,21 @@
                         <span>Ataques Remotos</span>
                         <div class="title-breaker"></div>
                     </div>
-                    <div class="body-fragment"></div>
-                    <div class="breaker"></div>
+                    <div class="body-fragment"style="margin-top: 0.25em;">
+                        <ol>
+                            <span >Un par de ejemplos:</span>
+                            <ul style="margin-top: 0.25em;">
+                                <li>Inyección de código.</li>
+                                <li>Escaneo de puertos.</li>
+                                <li>Denegación de servicio.</li>
+                                <li>Escuchas de red.</li>
+                                <li>Spoofing</li>
+                                <li>Fuerza bruta.</li>
+                                <li>Elevación de privilegios.</li>
+                            </ul>
+                        </ol>
+                    </div>
+                    
                 </div>
                 <div class="content-fragment">
                     <div class="breaker"></div>
@@ -79,8 +188,31 @@
                         <span>Amenazas Físicas</span>
                         <div class="title-breaker"></div>
                     </div>
-                    <div class="body-fragment"></div>
+                    <div class="body-fragment">
+                        <ol>
+                            <ul>
+                                <li>Fallo en los dispositivos.</li>
+                                <div class="article">
+                                    <h1 class="article-header">Perdió mas de 2 meses en fotos...</h1>
+                                    <h3 class="article-subheader">Jesús perdió las fotos de sus vacaciones por no cuidar sus discos duros.</h3>
+                                    <div class="article-body">
+                                        <p>Todo el mundo tiene en casa ese ordenador o ese portátil dónde están enterradas esas fotos de las vacaciones de 2014. Lo que no sabe mucha gente es que están guardadas junto a una bomba contrarreloj. Y es que es normal que el disco duro deje de funcionar al cabo de unos años.</p>
+                                        <p>Es cierto que actualmente tenemos a la gloriosa <em>nube</em>, pero no todos tenemos la capacidad de almacenar TODOS nuestros datos, nuestras canciones y nuestros documentos en la nube. Este es el caso de Jesús. Más bien, él confió en que no pasaría nada, en que las fotos estarían seguras dentro de su ordenador de uso diarío.</p>
+                                        <div class="article-image"><img src="/assets/disco_duro.jpg" width="436"></div>
+                                        <p>Es normal confiarnos, ya que no suele ser noticia, solo vemos articulos de grandes empresas perdiendo ingentes cantidades de información por estos factores. Y no nos paramos a pensar en que también nos puede pasar a nosotros. Los componentes informáticos no duran para siempre, por lo que es necesario reparalos o reemplazarlos.</p>
+                                        <p>Afortunadamente para Jesús, su técnico de confianza logró reparar el disco duro y recuperar la mayoría de datos. Las fotos de ese verano en las Bahamas fue lo único que se perdió.</p>
+                                    </div>
+                                </div>
+                                <li>Accidentes.</li>
+                                <li>Catástrofes naturales.</li>
+                            </ul>
+                        </ol>
+                    </div>
                     <div class="breaker"></div>
+                </div>
+                <div class="content-footer">
+                    <span>Aprenda más sobre <a href="./conductas.html">conductas de seguridad.</a></span><br>
+                    <span>Vuelva al <a href="./index.html">inicio.</a></span>
                 </div>
             </div>
         </div>
